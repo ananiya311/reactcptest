@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  hello-world:
+  hello-world-job:
     runs-on: ubuntu-latest
-
+    name: A job to say hello
     steps:
-      - name: Hello, World!
+      - name: Hello World
         run: echo "Hello, World!"
