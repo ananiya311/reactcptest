@@ -19,7 +19,8 @@ jobs:
 
       - name: Install Dependencies 📦
         run: npm install
-
+      - name: run Lint eslint
+        run: npm run lint
       - name: Build React App 🏗️
         run: npm run build
 
