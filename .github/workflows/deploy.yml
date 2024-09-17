@@ -30,7 +30,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: /  # Ensure this is the correct directory
-          local-dir: dist  # This assumes your build directory is 'build'
+          local-dir: dist/  # This assumes your build directory is 'build'
           exclude: |
             **/.git**
             **/.git*/**
