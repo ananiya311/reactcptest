@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
     <div>About</div>
-    <Link to="/">Home</Link>
+    <Link to="/">Home page</Link>
     </>
   )
 }

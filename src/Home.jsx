@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
     <div>Home</div>
-    <Link to="/about">About</Link>
+    <Link to="/about">About us page</Link>
     </>
   )
 }
