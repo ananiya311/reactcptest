@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
-import { Route } from 'react-router-dom'
 export default function Home() {
+
+  asdfasdf 
   return (
     <>
     <div>Home, welcome test test test</div>
